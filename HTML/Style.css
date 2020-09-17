@@ -1,0 +1,38 @@
+/* The color for the orange FF4949 */
+
+/* Hopefully this grid will work. */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .header { grid-area: 1 / 2 / 2 / 5; }
+    .nav { grid-area: 2 / 2 / 5 / 3; }
+    .main { grid-area: 2 / 3 / 5 / 4; }
+    .footer { grid-area: 2 / 4 / 5 / 5; }
+
+/* Some style for the header */
+.header{
+    background-color: #0B0633;
+    color: white;
+    
+}
+/* Navigation style */
+.nav{
+
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Main body style */
+.main{
+
+}
+/* The footer style */
+.footer{
+
+}
