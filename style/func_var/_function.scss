@@ -1,0 +1,15 @@
+@import 'varible';
+
+@mixin MainFlex (){
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@mixin MainMargin {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+@mixin Font($font_size) {
+    font-family: $font_family;
+    font-size: $font_size;
+}

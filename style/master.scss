@@ -1,0 +1,31 @@
+@import './func_var/varible';
+@import './func_var/function';
+
+body{
+    background: $body_color;
+}
+
+.header{
+    @include MainMargin();
+    @include MainFlex();
+    @include Font(30px);
+    background: $header_color;
+}
+.nav{
+    @include MainMargin();
+    @include MainFlex();
+    @include Font(30px);
+    background-color: $nav_color;
+}
+.main{
+    @include MainMargin();
+    @include MainFlex();
+    @include Font(30px);
+    background-color: $main_color;
+}
+.footer{
+    @include MainMargin();
+    @include MainFlex();
+    @include Font(30px);
+    background-color: $footer_color;
+}
