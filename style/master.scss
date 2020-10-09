@@ -1,5 +1,5 @@
-@import './func_var/varible';
-@import './func_var/function';
+@use './func_var/varible';
+@use './func_var/function';
 
 body{
     background: $body_color;
