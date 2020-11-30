@@ -12,10 +12,7 @@ body{
     background: $header_color;
 }
 .nav{
-    @include MainMargin();
-    @include MainFlex();
-    @include Font(30px);
-    background-color: $nav_color;
+    @include nav();
 }
 .main{
     @include MainMargin();
