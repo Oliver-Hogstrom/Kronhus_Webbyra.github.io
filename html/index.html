@@ -4,30 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kronhus Webbyrå UF</title>
+    <!-- Ja vi kommer att använda bootstrap som en grund men vi kommer styla med egen css -->
     <link rel="stylesheet" href="/bs/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
     <div class="container">
+        <!-- Detta är headern samt rubriken -->
         <div class="header">
             <div class="card-header">
-                <h2>Kronhus Webbyrå UF</h2>
+                <h2 class="rubrik">Kronhus Webbyrå UF</h2>
             </div>
         </div>
-
+        <!-- en dropdown navbar som kommer finnas över alla hemsidor -->
         <div class="nav">
-
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
         </div>
-
+        <!-- Detta kommer vara behållaren där all main content kommer finnas så som vilka vi är och vad vi kommer göra -->
         <div class="mainContent">
-
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card-header">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-header">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-header">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- En enkel behållare för att få med våran logo -->
+    <div class="logo">
 
-        <div class="footer">
+    </div>
+    <!-- I footern kommer det finnas kontaktuppgifter samt sociala medier -->
+    <div class="footer">
 
-        </div>
+    </div>
 
     </div>
 </body>
