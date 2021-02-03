@@ -1,3 +1,16 @@
+body{
+    background: #ff4949;
+}
+
+.container{
+    background: #F5F4F4;
+}
+
+.header{
+    background-color: #0b0633;
+    color: #F5F4F4;
+}
+
 .rubrik{
     text-align: center;
 }
