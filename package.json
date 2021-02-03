@@ -1,0 +1,20 @@
+{
+  "name": "kronhus_webbyra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliver-Hogstrom/Kronhus_Webbyra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra/issues"
+  },
+  "homepage": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra#readme"
+}
