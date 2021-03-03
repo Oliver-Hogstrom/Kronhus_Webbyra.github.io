@@ -20,11 +20,11 @@ app.get('/service', (req, res) => {
 app.get('/kontakt', (req, res) => {
     res.sendFile(htmlDir + 'kontakt.html')
 })
-app.get('/Tjänster', (req, res) => {
+app.get('/Tjanster', (req, res) => {
     res.sendFile(htmlDir + 'tjänser.html')
 })
-app.get('/Vilka är vi', (req, res) => {
-    res.sendFile(htmlDir + 'vilka-ar-vi.html')
+app.get('/Vilka', (req, res) => {
+    res.sendFile(htmlDir + 'vilka.html')
 })
 
 // For the CSS and bootstrap files
