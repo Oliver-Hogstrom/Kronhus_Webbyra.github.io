@@ -1,11 +1,11 @@
 {
   "name": "kronhus_webbyra",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra/issues"
   },
-  "homepage": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra#readme"
+  "homepage": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
