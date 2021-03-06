@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/Oliver-Hogstrom/Kronhus_Webbyra#readme",
   "keywords": [],
-  "description": "",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "description": ""
 }
