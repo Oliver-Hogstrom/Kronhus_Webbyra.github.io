@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express()
-const port = 3000
+const port = 3301
 
 const clientDir = __dirname + "\\client\\"
 const htmlDir = __dirname + "\\html\\"
