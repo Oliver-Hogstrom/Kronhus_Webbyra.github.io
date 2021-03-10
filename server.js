@@ -3,10 +3,10 @@ const express = require('express')
 const app = express()
 const port = 3001
 
-const clientDir = __dirname + "\\client\\"
-const htmlDir = __dirname + "\\html\\"
-const bsDir = __dirname + "\\bs\\"
-const styleDir = __dirname + "\\css\\"
+const clientDir = __dirname + "//client//"
+const htmlDir = __dirname + "//html//"
+const bsDir = __dirname + "//bs//"
+const styleDir = __dirname + "//css//"
 
 app.use(express.static(clientDir))
 app.use(express.json())
