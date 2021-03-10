@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 const clientDir = __dirname + "\\client\\"
-const docsDir = __dirname + "\\docs\\"
+const htmlDir = __dirname + "\\html\\"
 const bsDir = __dirname + "\\bs\\"
 const styleDir = __dirname + "\\css\\"
 
@@ -13,19 +13,19 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 app.get('/', (req, res) => {
-    res.sendFile(docsDir + 'index.html')
+    res.sendFile(htmlDir + 'index.html')
 })
 app.get('/service', (req, res) => {
-    res.sendFile(docsDir + 'service.html')
+    res.sendFile(htmlDir + 'service.html')
 })
 app.get('/kontakt', (req, res) => {
-    res.sendFile(docsDir + 'kontakt.html')
+    res.sendFile(htmlDir + 'kontakt.html')
 })
 app.get('/Tjanster', (req, res) => {
-    res.sendFile(docsDir + 'tjänser.html')
+    res.sendFile(htmlDir + 'tjänser.html')
 })
 app.get('/Vilka', (req, res) => {
-    res.sendFile(docsDir + 'vilka.html')
+    res.sendFile(htmlDir + 'vilka.html')
 })
 
 // For the CSS and bootstrap files
